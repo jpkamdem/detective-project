@@ -8,14 +8,15 @@ import rainStorm from "../assets/rain_storm.mp3";
 import woodWalk1 from "../assets/wood_walk_1.mp3";
 import woodWalk2 from "../assets/wood_walk_2.mp3";
 import woodWalk3 from "../assets/wood_walk_3.mp3";
+import woodWalk4 from "../assets/wood_walk_4.mp3";
 
 export default function Home() {
   const audioRef = useRef(null);
-  const woodWalkSounds = [woodWalk1, woodWalk2, woodWalk3];
+  const woodWalkSounds = [woodWalk1, woodWalk2, woodWalk3, woodWalk4];
 
   useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.volume = 0.6;
+      audioRef.current.volume = 0.2;
       audioRef.current.play();
     }
   });
