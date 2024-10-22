@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+  background: linear-gradient(#444, #2f2f2f);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  height: max-content;
+  width: max-content;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  inset: 0;
+  margin: 65% auto;
+  transition: color 0.2s ease-in;
+}
+
+.heading:hover {
+  color: red;
+}
+
+.bgImage {
+  position: relative;
+  height: 700px;
+  width: 700px;
+  background-image: url("../assets/house.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
