@@ -4,7 +4,7 @@ import ScrollButton from "../components/ScrollButton";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
 import Section3 from "../components/Section3";
-import rainStorm from "../assets/rain_storm.mp3";
+import bgMusic from "../assets/bgMusic.mp3";
 import woodWalk1 from "../assets/wood_walk_1.mp3";
 import woodWalk2 from "../assets/wood_walk_2.mp3";
 import woodWalk3 from "../assets/wood_walk_3.mp3";
@@ -39,7 +39,7 @@ export default function Home() {
           onClick={playRandomWoodWalk}
         />
       </div>
-      <audio ref={audioRef} src={rainStorm} loop />
+      <audio ref={audioRef} src={bgMusic} loop />
       <Section1 onClick={playRandomWoodWalk} />
       <Section2 onClick={playRandomWoodWalk} />
       <Section3 onClick={playRandomWoodWalk} />
