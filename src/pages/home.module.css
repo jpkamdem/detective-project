@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  background: linear-gradient(#444, #2f2f2f);
+  background: linear-gradient(#444, #3c3c3c);
   display: flex;
   flex-direction: column;
   justify-content: center;
