@@ -24,7 +24,7 @@ export default function Home() {
   function playRandomWoodWalk() {
     const randomIndex = Math.floor(Math.random() * woodWalkSounds.length);
     const audio = new Audio(woodWalkSounds[randomIndex]);
-    audio.volume = 0.1;
+    audio.volume = 0.2;
     audio.play();
   }
 
