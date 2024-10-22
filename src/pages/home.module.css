@@ -10,12 +10,12 @@
 .heading {
   height: max-content;
   width: max-content;
-  font-size: 2.5em;
+  font-size: 5em;
   font-weight: bold;
   color: #fff;
   position: absolute;
   inset: 0;
-  margin: 65% auto;
+  margin: 38% auto;
   transition: color 0.2s ease-in;
 }
 
@@ -25,9 +25,10 @@
 
 .bgImage {
   position: relative;
-  height: 700px;
-  width: 700px;
+  height: 90vh;
+  width: 100vw;
   background-image: url("../assets/house.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
