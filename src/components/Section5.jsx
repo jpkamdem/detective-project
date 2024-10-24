@@ -12,6 +12,7 @@ export default function Section5({ onClick }) {
           textAlign: "justify",
           lineHeight: "1.8em",
           color: "#fff",
+          fontSize: "2em",
         }}
       >
         Dans le grenier, les joueurs découvrent une petite boîte métallique avec

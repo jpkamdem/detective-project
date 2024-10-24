@@ -16,6 +16,7 @@ export default function Section3({ onClick }) {
             lineHeight: "1.8em",
             color: "#fff",
             padding: "0 0 2em 0",
+            fontSize: "3em",
           }}
         >
           Dans une pièce sombre du chalet, les joueurs trouvent un miroir ancien
