@@ -9,6 +9,8 @@ import woodWalk1 from "../assets/wood_walk_1.mp3";
 import woodWalk2 from "../assets/wood_walk_2.mp3";
 import woodWalk3 from "../assets/wood_walk_3.mp3";
 import woodWalk4 from "../assets/wood_walk_4.mp3";
+import Section4 from "../components/Section4";
+import Section5 from "../components/Section5";
 
 export default function Home() {
   const audioRef = useRef(null);
@@ -44,6 +46,8 @@ export default function Home() {
       <Section1 onClick={playRandomWoodWalk} />
       <Section2 onClick={playRandomWoodWalk} />
       <Section3 onClick={playRandomWoodWalk} />
+      <Section4 onClick={playRandomWoodWalk} />
+      <Section5 onClick={playRandomWoodWalk} />
     </div>
   );
 }

@@ -11,16 +11,16 @@
   margin: 40px 0;
   /* border-bottom: 1px solid transparent; */
   transition: background 0.2s ease-in-out, color 0.2s ease;
+  font-size: 5em;
 }
 
 .headline:hover {
-  background: crimson;
+  background: #ac0a0a;
   color: #fff;
 }
 
 .text {
   width: 80vw;
-  columns: 3;
   text-align: justify;
   line-height: 1.8em;
   color: #fff;

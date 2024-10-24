@@ -1,11 +1,12 @@
 import styles from "./section1.module.css";
 import ScrollButton from "./ScrollButton";
+import Header from "./Header";
 
 export default function Section1({ onClick }) {
   return (
     <>
       <div id="section1" className={styles.container}>
-        <h2 className={styles.headline}>Synopsis :</h2>
+        <Header label="Synopsis" />
         <p className={styles.text}>
           Après plusieurs années sans se revoir, un groupe d'amis d'enfance
           décide de se réunir pour un week-end dans un chalet isolé au bord d'un
@@ -25,11 +26,7 @@ export default function Section1({ onClick }) {
           brouille, les murmures du lac révèlent une vérité bien plus
           terrifiante que quiconque aurait pu l'imaginer...
         </p>
-        <ScrollButton
-          label="Section numéro TWO"
-          target="section2"
-          onClick={onClick}
-        />
+        <ScrollButton label="Suite..." target="section2" onClick={onClick} />
       </div>
     </>
   );
