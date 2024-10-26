@@ -8,11 +8,11 @@ export default function Section5({ onClick }) {
       <Header label="Énigme 3 : Le code des chiffres" />
       <p
         style={{
-          width: "60vw",
-          textAlign: "justify",
+          width: "80vw",
+          textAlign: "center",
           lineHeight: "1.8em",
           color: "#fff",
-          fontSize: "2em",
+          fontSize: "3em",
         }}
       >
         Dans le grenier, les joueurs découvrent une petite boîte métallique avec
@@ -20,12 +20,12 @@ export default function Section5({ onClick }) {
         <br />
         "Les chiffres ne sont que des lettres déguisées."
         <br />
+        Un code de 7 chiffres est gravé mais il manque des chiffres :
         <br />
-        Un code de 7 chiffres est gravé mais il manque des chiffres : 19 - 9 -
-        12 – 5 - ? - ? - ?
+        19 - 9 - 12 – 5 - ? - ? - ?
         <br />
       </p>
-      <ScrollButton onClick={onClick} target="section6" label="Suite..." />
+      <ScrollButton onClick={onClick} target="section6" />
     </div>
   );
 }

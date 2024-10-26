@@ -1,6 +1,6 @@
 .container {
-  height: 100vh;
-  background: linear-gradient(#2f2f2f, #222);
+  min-height: 100vh;
+  background: linear-gradient(#4b4b4b, #444444);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,10 +8,10 @@
 }
 
 .headline {
-  margin: 40px 0;
+  margin: 20px 0;
   /* border-bottom: 1px solid transparent; */
   transition: background 0.2s ease-in-out, color 0.2s ease;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .headline:hover {

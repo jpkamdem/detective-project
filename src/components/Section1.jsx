@@ -26,7 +26,7 @@ export default function Section1({ onClick }) {
           brouille, les murmures du lac révèlent une vérité bien plus
           terrifiante que quiconque aurait pu l'imaginer...
         </p>
-        <ScrollButton label="Suite..." target="section2" onClick={onClick} />
+        <ScrollButton target="section2" onClick={onClick} />
       </div>
     </>
   );

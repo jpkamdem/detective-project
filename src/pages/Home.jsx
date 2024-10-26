@@ -11,6 +11,13 @@ import woodWalk3 from "../assets/wood_walk_3.mp3";
 import woodWalk4 from "../assets/wood_walk_4.mp3";
 import Section4 from "../components/Section4";
 import Section5 from "../components/Section5";
+import Section6 from "../components/Section6";
+import Section7 from "../components/Section7";
+import Section8 from "../components/Section8";
+import Section9 from "../components/Section9";
+import Section10 from "../components/Section10";
+import Section11 from "../components/Section11";
+import Section12 from "../components/Section12";
 
 export default function Home() {
   const audioRef = useRef(null);
@@ -32,22 +39,25 @@ export default function Home() {
 
   return (
     <div>
+      <audio ref={audioRef} src={bgMusic} loop />
       <div className={styles.container}>
         <div className={styles.bgImage}>
           <p className={styles.heading}>Les murmures du lac</p>
         </div>
-        <ScrollButton
-          target="section1"
-          label="Commencer l'enquête"
-          onClick={playRandomWoodWalk}
-        />
+        <ScrollButton target="section1" onClick={playRandomWoodWalk} />
       </div>
-      <audio ref={audioRef} src={bgMusic} loop />
       <Section1 onClick={playRandomWoodWalk} />
       <Section2 onClick={playRandomWoodWalk} />
       <Section3 onClick={playRandomWoodWalk} />
       <Section4 onClick={playRandomWoodWalk} />
       <Section5 onClick={playRandomWoodWalk} />
+      <Section6 onClick={playRandomWoodWalk} />
+      <Section7 onClick={playRandomWoodWalk} />
+      <Section8 onClick={playRandomWoodWalk} />
+      <Section9 onClick={playRandomWoodWalk} />
+      <Section10 onClick={playRandomWoodWalk} />
+      <Section11 onClick={playRandomWoodWalk} />
+      <Section12 onClick={playRandomWoodWalk} />
     </div>
   );
 }

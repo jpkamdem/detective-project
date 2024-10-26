@@ -34,7 +34,7 @@ export default function Section3({ onClick }) {
           <img src={lamp} alt="" />
           <img src={man} alt="" />
         </div>
-        <ScrollButton label="Suite..." target="section4" onClick={onClick} />
+        <ScrollButton target="section4" onClick={onClick} />
       </div>
     </>
   );

@@ -21,7 +21,7 @@ export default function Section2({ onClick }) {
           reconstituer la formule qui pourrait enfin libérer les âmes piégées
           dans les murmures du lac...
         </p>
-        <ScrollButton label="Suite..." target="section3" onClick={onClick} />
+        <ScrollButton target="section3" onClick={onClick} />
       </div>
     </>
   );
