@@ -24,11 +24,11 @@ export default function Section8({
 
   function checkInput() {
     const rightAnswer =
-      sentence.first === "minuit" &&
-      sentence.second === "murmure" &&
-      sentence.third === "ombre" &&
-      sentence.fourth === "nuit" &&
-      sentence.fifth === "mémoire";
+      sentence.first.trim() === "minuit" &&
+      sentence.second.trim() === "murmure" &&
+      sentence.third.trim() === "ombre" &&
+      sentence.fourth.trim() === "nuit" &&
+      sentence.fifth.trim() === "mémoire";
     if (!rightAnswer) {
       setValid(false);
       return "Le lac s'agite, les murmures s'intensifient : ce ne sont pas les bons mots... Essayez encore";
