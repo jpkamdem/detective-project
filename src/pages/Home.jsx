@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import ScrollButton from "../components/ScrollButton";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
@@ -19,6 +19,7 @@ import Section10 from "../components/Section10";
 import Section11 from "../components/Section11";
 import Section12 from "../components/Section12";
 import Section13 from "../components/Section13";
+import Section14 from "../components/Section14";
 
 export default function Home() {
   const audioRef = useRef(null);
@@ -37,6 +38,16 @@ export default function Home() {
     audio.volume = 0.2;
     audio.play();
   }
+
+  const [sentence, setSentence] = useState({
+    first: "",
+    second: "",
+    third: "",
+    fourth: "",
+    fifth: "",
+  });
+
+  const [valid, setValid] = useState(false);
 
   return (
     <div>
@@ -59,7 +70,14 @@ export default function Home() {
       <Section10 onClick={playRandomWoodWalk} />
       <Section11 onClick={playRandomWoodWalk} />
       <Section12 onClick={playRandomWoodWalk} />
-      <Section13 onClick={playRandomWoodWalk} />
+      <Section13
+        onClick={playRandomWoodWalk}
+        sentence={sentence}
+        setSentence={setSentence}
+        valid={valid}
+        setValid={setValid}
+      />
+      <Section14 onClick={playRandomWoodWalk} />
     </div>
   );
 }

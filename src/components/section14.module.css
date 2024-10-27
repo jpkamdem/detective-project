@@ -1,7 +1,6 @@
 .container {
-  position: relative;
   min-height: 100vh;
-  background: #0e0e0e;
+  background: linear-gradient(#0e0e0e, #1e1c28);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,17 +19,4 @@
   background: rgba(255, 255, 255, 0.1); /* Ajoutez un fond léger pour tester */
   height: 2.8em;
   color: #fff;
-}
-
-.popup {
-  font-size: 1.5em;
-  position: absolute;
-  background: red;
-  padding: 10px;
-  left: 0;
-  top: 700px;
-}
-
-.hide {
-  display: none;
 }

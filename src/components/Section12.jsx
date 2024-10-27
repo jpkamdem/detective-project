@@ -6,7 +6,7 @@ export default function Section8({ onClick }) {
   return (
     <>
       <div id="section12" className={styles.container}>
-        <Header label="Énigme 10 : Horgole aux aiguilles cachées" />
+        <Header label="Énigme 10 : Horloge aux aiguilles cachées" />
         <p className={styles.text}>
           Dans une salle du chalet, les joueurs découvrent une vieille horloge
           suspendue au mur. Ses aiguilles sont absentes, et le cadran semble
