@@ -8,14 +8,14 @@ export default function Section8({ onClick }) {
       <div id="section9" className={styles.container}>
         <Header label="Énigme 7 : La clef du néant" />
         <p className={styles.text}>
-          Les joueurs trouvent un ancien coffre verrouillé dans un coin sombre
-          du sous-sol du chalet. Il n’y a pas de serrure visible, mais sur le
+          Les amis trouvent un ancien coffre verrouillé dans un coin sombre du
+          sous-sol du chalet. Il n’y a pas de serrure visible, mais sur le
           dessus du coffre, une phrase énigmatique est gravée :
           <p style={{ fontStyle: "italic" }}>
             "Ce qui ouvre ce qui n'existe plus n’a ni forme, ni clé."
           </p>
-          À côté du coffre, les joueurs trouvent un parchemin qui semble avoir
-          été déchiré. Une partie de la phrase est encore lisible :
+          À côté du coffre, les amis trouvent un parchemin qui semble avoir été
+          déchiré. Une partie de la phrase est encore lisible :
           <p style={{ fontStyle: "italic" }}>
             "Lorsque tout est effacé et que plus rien ne subsiste, seule
             l’________ reste dans les méandres de l’esprit."

@@ -8,9 +8,8 @@ export default function Section8({ onClick }) {
       <div id="section11" className={styles.container}>
         <Header label="Énigme 9 : Le puzzle des ombres" />
         <p className={styles.text}>
-          Dans la salle sombre du chalet, les joueurs trouvent un tableau gravé
-          avec des lettres mélangées. Une inscription au bas du tableau indique
-          :
+          Dans le salon, les amis trouvent un tableau gravé avec des lettres
+          mélangées. Une inscription au bas du tableau indique :
           <p style={{ fontStyle: "italic" }}>
             "Lorsque le soleil se couche, ce qui reste émerge des ombres.
             Déchiffre les lettres pour trouver ce qui règne dans l'obscurité."

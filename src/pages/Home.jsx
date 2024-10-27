@@ -77,7 +77,7 @@ export default function Home() {
         valid={valid}
         setValid={setValid}
       />
-      <Section14 onClick={playRandomWoodWalk} />
+      {valid ? <Section14 onClick={playRandomWoodWalk} /> : ""}
     </div>
   );
 }

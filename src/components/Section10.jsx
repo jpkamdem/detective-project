@@ -8,11 +8,11 @@ export default function Section8({ onClick }) {
       <div id="section10" className={styles.container}>
         <Header label="Énigme 8 : Les symboles du temps perdu" />
         <p className={styles.text}>
-          Dans la pièce principale, les joueurs découvrent un vieux livre relié
-          de cuir, avec des pages jaunies par le temps. À l'intérieur, des
-          symboles et des émojis sont gravés à la place des mots, laissant un
-          message crypté à déchiffrer. Sur la couverture du livre, une phrase
-          gravée dans le cuir indique :
+          Dans la pièce principale, les amis découvrent un vieux livre relié de
+          cuir, avec des pages jaunies par le temps. À l'intérieur, des symboles
+          et des émojis sont gravés à la place des mots, laissant un message
+          crypté à déchiffrer. Sur la couverture du livre, une phrase gravée
+          dans le cuir indique :
           <p style={{ fontStyle: "italic" }}>
             "Ce que le passé ne révèle plus, les symboles le rappellent."
           </p>

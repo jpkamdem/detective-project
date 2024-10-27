@@ -15,8 +15,8 @@ export default function Section5({ onClick }) {
           fontSize: "3em",
         }}
       >
-        Dans le grenier, les joueurs découvrent une petite boîte métallique avec
-        un cadenas. Sur le côté de la boîte, il est inscrit :
+        Dans le couloir, les amis découvrent une petite boîte métallique avec un
+        cadenas. Sur le côté de la boîte, il est inscrit :
         <br />
         <p style={{ fontStyle: "italic" }}>
           "Les chiffres ne sont que des lettres déguisées."

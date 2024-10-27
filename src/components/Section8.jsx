@@ -8,7 +8,7 @@ export default function Section8({ onClick }) {
       <div id="section8" className={styles.container}>
         <Header label="Énigme 6 : Paroles cachées dans le vent" />
         <p className={styles.text}>
-          En vous approchant de l’ancienne jetée qui borde le lac, vous entendez
+          En se rapprochant de l’ancienne jetée qui borde le lac, vous entendez
           le souffle du vent qui semble porter des sons presque imperceptibles.
           Sur un vieux panneau en bois, vous trouvez une inscription énigmatique
           :

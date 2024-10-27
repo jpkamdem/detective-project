@@ -19,7 +19,7 @@ export default function Section3({ onClick }) {
             fontSize: "3em",
           }}
         >
-          Dans une pièce sombre du chalet, les joueurs trouvent un miroir ancien
+          Dans une pièce sombre du chalet, les amis trouvent un miroir ancien
           fissuré, suspendu au mur, à côté d’une vieille lampe à huile. Une
           inscription énigmatique est gravée dans le cadre du miroir :
           <br />
