@@ -18,7 +18,9 @@ export default function Section5({ onClick }) {
         Dans le grenier, les joueurs découvrent une petite boîte métallique avec
         un cadenas. Sur le côté de la boîte, il est inscrit :
         <br />
-        "Les chiffres ne sont que des lettres déguisées."
+        <p style={{ fontStyle: "italic" }}>
+          "Les chiffres ne sont que des lettres déguisées."
+        </p>
         <br />
         Un code de 7 chiffres est gravé mais il manque des chiffres :
         <br />

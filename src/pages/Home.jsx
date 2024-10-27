@@ -18,6 +18,7 @@ import Section9 from "../components/Section9";
 import Section10 from "../components/Section10";
 import Section11 from "../components/Section11";
 import Section12 from "../components/Section12";
+import Section13 from "../components/Section13";
 
 export default function Home() {
   const audioRef = useRef(null);
@@ -25,7 +26,7 @@ export default function Home() {
 
   useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.volume = 0.2;
+      audioRef.current.volume = 1;
       audioRef.current.play();
     }
   });
@@ -58,6 +59,7 @@ export default function Home() {
       <Section10 onClick={playRandomWoodWalk} />
       <Section11 onClick={playRandomWoodWalk} />
       <Section12 onClick={playRandomWoodWalk} />
+      <Section13 onClick={playRandomWoodWalk} />
     </div>
   );
 }

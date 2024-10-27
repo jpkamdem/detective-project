@@ -13,8 +13,10 @@ export default function Section4({ onClick }) {
           texte est illisible, mais un espace vide intrigue les joueurs. Voici
           le poème :
           <br />
-          "Quand les étoiles se taisent et que les ombres dansent, seule la ____
-          veille sur les secrets du ciel."
+          <p style={{ fontStyle: "italic" }}>
+            "Quand les étoiles se taisent et que les ombres dansent, seule la
+            ____ veille sur les secrets du ciel."
+          </p>
         </p>
         <ScrollButton target="section5" onClick={onClick} />
       </div>

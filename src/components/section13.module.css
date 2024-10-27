@@ -1,0 +1,15 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(#0e0e0e, #0e0e0e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  width: 80vw;
+  text-align: center;
+  line-height: 1.8em;
+  color: #fff;
+  font-size: 3em;
+}

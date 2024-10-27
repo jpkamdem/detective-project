@@ -24,11 +24,10 @@ export default function Section3({ onClick }) {
           inscription énigmatique est gravée dans le cadre du miroir :
           <br />
           <br />
-          <strong>
-            {" "}
+          <p style={{ fontStyle: "italic" }}>
             "Ce qui se reflète n’est jamais complet. Ce qui est caché te révèle
             la vérité."
-          </strong>
+          </p>
         </p>
         <div className={styles.imgContainer}>
           <img src={lamp} alt="" />

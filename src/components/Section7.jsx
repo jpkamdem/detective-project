@@ -6,17 +6,31 @@ export default function Section7({ onClick }) {
   return (
     <>
       <div id="section7" className={styles.container}>
-        <Header label="Énigme 5 : Les gardiens du ciel" />
+        <Header label="Énigme 5 : Le mystère des symboles célestes" />
         <p className={styles.text}>
-          Dans la pièce principale du chalet, les joueurs trouvent un ancien
-          globe céleste, représentant le ciel nocturne avec des constellations
-          gravées sur sa surface. Mais certaines étoiles semblent avoir été
-          effacées, tandis que d’autres brillent plus que d'habitude. À côté du
-          globe, une plaque en métal porte l’inscription suivante :
+          En fouillant dans le grenier sombre du chalet, les joueurs trouvent
+          une plaque en métal gravée de symboles anciens et énigmatiques.
+          Au-dessus de la plaque, une phrase mystérieuse est gravée dans le bois
+          :
           <p style={{ fontStyle: "italic" }}>
-            "Ceux qui brillent encore sont les gardiens du ciel. Compte les
-            disparus, et leur nom te sera révélé.
+            "C’est la lumière que tu cherches, celle qui brille dans le ciel de
+            la nuit. Lis entre les symboles, et tu trouveras la clé."
           </p>
+          Symboles :
+          <ul
+            style={{
+              listStyleType: "none",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+            }}
+          >
+            <li>
+              ☽ - ☉ - <span style={{ background: "#ff9f2e" }}>🞼</span>
+            </li>
+            <li>✦ - ⚝ - ★</li>
+            <li>✪ - ✶ - ✹</li>
+          </ul>
         </p>
         <ScrollButton onClick={onClick} target="section8" />
       </div>

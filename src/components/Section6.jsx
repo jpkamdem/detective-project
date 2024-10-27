@@ -14,8 +14,10 @@ export default function Section6({ onClick }) {
           irrégulières. À côté des pas, une inscription est gravée dans le bois
           :
           <br />
-          "Trois pas en avant, deux en arrière. Ce qui reste est toujours
-          constant."
+          <p style={{ fontStyle: "italic" }}>
+            "Trois pas en avant, deux en arrière. Ce qui reste est toujours
+            constant."
+          </p>
         </p>
         <ScrollButton onClick={onClick} target="section7" />
       </div>
