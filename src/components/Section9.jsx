@@ -17,7 +17,7 @@ export default function Section8({ onClick }) {
           À côté du coffre, les amis trouvent un parchemin qui semble avoir été
           déchiré. Une partie de la phrase est encore lisible :
           <p style={{ fontStyle: "italic" }}>
-            "Lorsque tout est effacé et que plus rien ne subsiste, seule
+            "Lorsque tout est effacé et que plus rien ne subsiste, seul
             l’________ reste dans les méandres de l’esprit."
           </p>
         </p>

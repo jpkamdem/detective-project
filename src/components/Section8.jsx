@@ -8,10 +8,10 @@ export default function Section8({ onClick }) {
       <div id="section8" className={styles.container}>
         <Header label="Énigme 6 : Paroles cachées dans le vent" />
         <p className={styles.text}>
-          En se rapprochant de l’ancienne jetée qui borde le lac, vous entendez
-          le souffle du vent qui semble porter des sons presque imperceptibles.
-          Sur un vieux panneau en bois, vous trouvez une inscription énigmatique
-          :
+          En se rapprochant de l’ancienne jetée qui borde le lac, les amis
+          entendent le souffle du vent qui semble porter des sons presque
+          imperceptibles. Sur un vieux panneau en bois, vous trouvez une
+          inscription énigmatique :
           <p style={{ fontStyle: "italic" }}>
             "Ce que le vent emporte n'est jamais entendu par tous, mais il
             révèle toujours des vérités à ceux qui savent écouter."
